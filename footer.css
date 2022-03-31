@@ -1,0 +1,32 @@
+#footer {
+    background-color: #0076ce;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    color: white;
+  }
+  
+  #footerContent {
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  #footerContent div {
+    padding-right: 40px;
+  }
+  
+  #footerContent ul {
+    padding-left: 0px;
+  }
+  
+  .bottomLinks li {
+    padding-bottom: 20px;
+  }
+  
+  #address li {
+    padding-bottom: 5px;
+  }
+  
+  #copyright {
+    padding-top: 80px;
+  }
+  

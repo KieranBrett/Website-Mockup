@@ -1,0 +1,23 @@
+/* Content */
+#content {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  .square {
+    border-radius: 8px;
+    padding: 30px;
+  }
+  
+  #introSquare {
+    width: 100%;
+    justify-content: end;
+    line-height: 30px;
+  }
+  
+  #introSquare div {
+    max-width: 320px;
+    background-color: #ffe4bc;
+    font-weight: bolder;
+    color: #ffab32;
+  }
+  

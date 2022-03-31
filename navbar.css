@@ -1,0 +1,18 @@
+/* Navbar */
+#navBar {
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #0076ce;
+    color: white;
+  }
+  
+  #links ul {
+    padding-left: 0px;
+  }
+  
+  #links li {
+    padding-left: 30px;
+    float: left;
+  }
+  
