@@ -9,6 +9,16 @@
     color: #ffab32;
 }
 
+.green {
+    background-color: #d1f2a5;
+    color: #0076ce;
+}
+
+.blue {
+    background-color: #b3e5fc;
+    color: #0076ce;
+}
+
 #introSquare {
     width: 100%;
     justify-content: end;
@@ -25,40 +35,74 @@
 }
 
 #masonry {
-    column-count: 3;
-    column-gap: 16px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-height: 800px;
+    justify-content: center;
+    align-content: center;
 }
 
-#masonry div {
-    display: inline-block;
-    /* max-width: 100%; */
-    margin-bottom: 16px;
-}
 
 .square {
+    vertical-align: middle;
+    align-content: center;
+    text-align: center;
+    margin: 10px;
     border-radius: 8px;
     padding: 30px;
-    width: 250px;
-    height: 250px;
-
-    background-color: aliceblue;
+    height: 150px;
+    width: 150px;
+    /* background-color: aliceblue; */
 }
 
 .article {
-    border-radius: 15px;
-    padding: 10px;
+    margin: 10px;
+    padding: 30px;
+    height: 360px;
+    width: 150px;
 
-    background-color: lightgray;
+    background-color: gainsboro;
+    border-radius: 15px 15px 15px 15px;
 }
 
-@media (max-width: 910px) {
+.article .description {
+    padding-top: 20px;
+}
+
+.article .top {
+    height: 150px;
+    width: 150px;
+    padding: 30px;
+    margin: -30px 0px 0px -30px;
+    background-color: gray;
+    border-radius: 15px 15px 0px 0px;
+}
+
+#secondColumn {
+    margin-top: 100px;
+}
+
+#thirdColumn {
+    margin-top: 50px;
+}
+
+@media (max-width: 830px) {
     #masonry {
-        column-count: 2;
+        max-height: 1400px;
+    }
+
+    #secondColumn {
+        margin-top: 0px;
+    }
+
+    #thirdColumn {
+        margin-top: 10px;
     }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 560px) {
     #masonry {
-        column-count: 1;
+        max-height: 2000px;
     }
 }
