@@ -45,3 +45,31 @@ a:hover {
     max-width: 80%;
     font-weight: bold;
 }
+
+/* Medium Display */
+@media (max-width: 980px) {
+  #navBar {
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  #links li {
+    /* float: none; */
+    padding-top: 5px;
+  }
+
+  #footer div {
+    min-width: 40%;
+  }
+}
+
+/* Mobile Display */
+@media (max-width: 650px) {
+  #navBar {
+    justify-content: center;
+  }
+  #links li {
+    padding-left: 300px;
+    padding-right: 300px;
+  }
+}
